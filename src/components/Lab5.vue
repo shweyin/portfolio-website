@@ -3,7 +3,7 @@
         <v-card>
             <v-card-title>Video</v-card-title>
             <video width="320" height="240" controls>
-                <source src="@/assets/lab5BTH645v2.mp4" type="video/mp4">
+                <source src="@/assets/lab5BTH645.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </v-card>
