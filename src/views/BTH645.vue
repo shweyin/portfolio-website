@@ -1,27 +1,82 @@
 <template>
     <div class="BTH645">
-        <h1 class="grey--text">BTH645</h1>
+        <!-- <h1 class="grey--text">BTH645</h1> -->
         <v-container class="my-5">
             <v-layout row>
-                <v-flex sx6 class="Labs">
-                    <v-tabs fixed-tabs background-color="blue lighten-1" dark>
-                        <v-tab>Lab 1</v-tab>
-                        <v-tab>Lab 2</v-tab>
-                        <v-tab>Lab 3</v-tab>                
-                        <v-tab>Lab 4</v-tab>                
-                        <v-tab>Lab 5</v-tab>                
-                    </v-tabs>
-                    <v-tab-item>Hello</v-tab-item>
-                </v-flex>
-                <v-flex sx6 class="Assignments">
-                    <v-tabs fixed-tabs background-color="blue darken-2" dark>
-                        <v-tab>Assignment 1</v-tab>     
-                        <v-tab>Assignment 2</v-tab>     
-                        <v-tab>Assignment 3</v-tab>     
-                    </v-tabs>
-                </v-flex>
+                <v-tabs grow dark background-color="blue" hide-slider>
+                    <v-tab>Labs</v-tab>
+                    <v-tab>Assignments</v-tab>
+                    <v-tab>Student Oath</v-tab>
+
+                    <v-tab-item>
+                        <v-tabs grow>
+                            <v-tab>Lab 1</v-tab>
+                            <v-tab>Lab 2</v-tab>
+                            <v-tab>Lab 3</v-tab>
+                            <v-tab>Lab 4</v-tab>
+                            <v-tab>Lab 5</v-tab>
+                            <v-tab>Lab 6</v-tab>
+                            <v-tab-item><Lab1/></v-tab-item>                            
+                            <v-tab-item><Lab2/></v-tab-item>                            
+                            <v-tab-item><Lab3/></v-tab-item>                            
+                            <v-tab-item><Lab4/></v-tab-item>                            
+                            <v-tab-item><Lab5/></v-tab-item>                            
+                            <v-tab-item><Lab6/></v-tab-item>                            
+                        </v-tabs>                        
+                    </v-tab-item>
+                    <v-tab-item>
+                        <v-tabs grow>
+                            <v-tab>Assignment 1</v-tab>
+                            <v-tab>Assignment 2</v-tab>
+                            <v-tab>Assignment 3</v-tab>
+                            <v-tab-item><Assignment1/></v-tab-item>
+                            <v-tab-item>ETA March 22</v-tab-item>
+                            <v-tab-item>ETA March 30</v-tab-item>
+                        </v-tabs>                        
+                    </v-tab-item>
+                    <v-tab-item>
+                        <p>
+                            I declare that this is wholly my own work in accordance with Seneca Academic Policy.  No part of this work has been copied manually or electronically from any other source (including web sites) or distributed to other students.
+                        </p>
+                        <p>
+                            Shweyin Than - 115675175
+                        </p>
+                    </v-tab-item>
+                </v-tabs>
             </v-layout>
             
         </v-container>
     </div>
 </template>
+
+<script>
+import Assignment1 from '@/components/Assignment1'
+import Lab1 from '@/components/Lab1'
+import Lab2 from '@/components/Lab2'
+import Lab3 from '@/components/Lab3'
+import Lab4 from '@/components/Lab4'
+import Lab5 from '@/components/Lab5'
+import Lab6 from '@/components/Lab6'
+
+export default {
+    components: {
+        Lab1,
+        Lab2,
+        Lab3,
+        Lab4,
+        Lab5,
+        Lab6,
+        Assignment1,
+    },
+    data(){
+        return{
+            items: [
+
+            ]
+        }
+    }
+}
+</script>
+
+<style scoped>
+</style>

@@ -1,13 +1,13 @@
 <template>
     <nav>        
-        <v-toolbar flat color="blue">
+        <v-toolbar flat color="indigo">
             <v-app-bar-nav-icon class="white--text" @click="drawer = true"></v-app-bar-nav-icon>
             <v-toolbar-title class="text-uppercase white--text font-weight-bold">
                 <span>Portfolio Website</span>
                 <span class="overline"> Shweyin Than</span>
             </v-toolbar-title>
             <v-spacer></v-spacer>
-            <v-btn flat depressed dark class="blue" router to="/BTH645">BTH645</v-btn>
+            <v-btn flat depressed dark class="indigo" router to="/BTH645">BTH645</v-btn>
             <v-btn icon color="white" router to="/"><v-icon>mdi-home</v-icon></v-btn>
         </v-toolbar>
         <v-navigation-drawer app temporary v-model="drawer" class="indigo darken-4">
