@@ -10,9 +10,11 @@
           <v-timeline>
             <v-timeline-item v-for="item in timeline" :key="item.title">
               <v-card min-width="240" elevation="8">              
-                <v-card-title class="blue"><h2 class="display-1 white--text font-weight-light">{{ item.title }}</h2></v-card-title>
+                <v-card-title class="blue">
+                    <h2 class="display-1 white--text font-weight-light">{{ item.title }}</h2>
+                </v-card-title>
                 <v-container>
-                  {{ item.content }}
+                  <v-card-text>{{item.content}}</v-card-text>
                 </v-container>
               </v-card>
             </v-timeline-item>

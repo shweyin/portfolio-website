@@ -35,12 +35,7 @@
                         </v-tabs>                        
                     </v-tab-item>
                     <v-tab-item>
-                        <p>
-                            I declare that this is wholly my own work in accordance with Seneca Academic Policy.  No part of this work has been copied manually or electronically from any other source (including web sites) or distributed to other students.
-                        </p>
-                        <p>
-                            Shweyin Than - 115675175
-                        </p>
+                        <StudentOath/>
                     </v-tab-item>
                 </v-tabs>
             </v-layout>
@@ -57,6 +52,7 @@ import Lab3 from '@/components/Lab3'
 import Lab4 from '@/components/Lab4'
 import Lab5 from '@/components/Lab5'
 import Lab6 from '@/components/Lab6'
+import StudentOath from '@/components/StudentOath'
 
 export default {
     components: {
@@ -67,6 +63,7 @@ export default {
         Lab5,
         Lab6,
         Assignment1,
+        StudentOath
     },
     data(){
         return{

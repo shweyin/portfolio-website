@@ -7,7 +7,7 @@
                 <span class="overline"> Shweyin Than</span>
             </v-toolbar-title>
             <v-spacer></v-spacer>
-            <v-btn flat depressed dark class="indigo" router to="/BTH645">BTH645</v-btn>
+            <v-btn depressed dark class="indigo" router to="/BTH645">BTH645</v-btn>
             <v-btn icon color="white" router to="/"><v-icon>mdi-home</v-icon></v-btn>
         </v-toolbar>
         <v-navigation-drawer app temporary v-model="drawer" class="indigo darken-4">
