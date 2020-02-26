@@ -25,10 +25,7 @@
                     </v-col>
                     <v-col>
                         <v-card-title>Video</v-card-title>
-                        <video width="700" height="400" controls>
-                            <source src="@/assets/BTH645ASS1_Final.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/kGHbczZ_E90" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </v-col>
                 </v-row>
             </v-container>

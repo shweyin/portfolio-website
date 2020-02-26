@@ -9,10 +9,7 @@
                 I added the naration titles to match with the video and the music. This was all done in Open Shot. I exported the video in mp4 format and uploaded it to my website.</v-card-text></v-col>
                     <v-col>
                         <v-card-text>
-                            <video width="700" height="400" controls>
-                                <source src="@/assets/lab5BTH645.mp4" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/TZV-hYZZoi8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </v-card-text>
                     </v-col>
                 </v-row>
