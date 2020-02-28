@@ -5,20 +5,20 @@
                 <v-row>
                     <v-card-title>Multimedia: Images</v-card-title>
                 </v-row>
-                <v-row>
-                    <v-col>
+                <v-row wrap>
+                    <v-col cols="12" sm="4">
                         <v-card>
                             <v-card-title>Florida 2020</v-card-title>
                             <v-img src="@/assets/florida2020.jpg" aspect-ratio="1"></v-img>
                         </v-card>
                     </v-col>
-                    <v-col>
+                    <v-col cols="12" sm="4">
                         <v-card>
                             <v-card-title>Florida 2020 Edit</v-card-title>
                             <v-img src="@/assets/florida2020edit.jpg" aspect-ratio="1"></v-img>
                         </v-card>
                     </v-col>
-                    <v-col>
+                    <v-col cols="12" sm="4">
                         <v-card>
                             <v-card-title>Keyboard Drawing</v-card-title>
                             <v-img src="@/assets/keyboard.jpg" aspect-ratio="1"></v-img>

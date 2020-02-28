@@ -14,8 +14,7 @@
                                 </audio>
                             </v-card-text>                        
                         </v-card>
-                    </v-col>
-                    <v-col>
+
                         <v-card>
                             <v-card-title>Ukulele Solo Mp3</v-card-title>
                             <v-card-text>
@@ -25,8 +24,7 @@
                                 </audio>
                             </v-card-text>                        
                         </v-card>
-                    </v-col>
-                    <v-col>
+
                         <v-card>
                             <v-card-title>Edited Ukulele Solo Wav</v-card-title>
                             <v-card-text>
@@ -36,7 +34,13 @@
                                 </audio>
                             </v-card-text>                        
                         </v-card>
-                    </v-col>             
+                    </v-col>
+                    <v-col>
+                        <v-card>
+                            <v-img src="@/assets/ukulele.jpg" aspect-ratio="1"></v-img>
+                        </v-card>
+                                                
+                    </v-col>          
                 </v-row>
                 <v-row>
                     <v-card-text>
