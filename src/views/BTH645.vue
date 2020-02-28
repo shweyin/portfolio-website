@@ -38,9 +38,9 @@
                         <StudentOath/>
                     </v-tab-item>
                 </v-tabs>
-            </v-layout>
-            
+            </v-layout>                    
         </v-container>
+        <v-footer absolute>This page was last modified on 2/22/2020, 5:04:19 PM</v-footer>    
     </div>
 </template>
 

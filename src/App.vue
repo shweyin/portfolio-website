@@ -3,8 +3,7 @@
     <Navbar/>
     <v-content class="content ma-5">
       <router-view></router-view>
-    </v-content>
-    <v-footer>This page was last modified on 2/22/2020, 5:04:19 PM</v-footer>
+    </v-content>    
   </v-app>
 </template>
 
