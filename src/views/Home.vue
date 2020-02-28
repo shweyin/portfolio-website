@@ -18,16 +18,6 @@
             </v-timeline-item>
           </v-timeline>
         </v-col>
-        <v-col>
-          <h1>Ongoing Projects</h1>
-          <v-simple-table>
-            <thead>
-              <tr>
-                <th>Project Name</th>                
-              </tr>
-            </thead>
-          </v-simple-table>
-        </v-col>
       </v-row>
     </v-container>
   </div>

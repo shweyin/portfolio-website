@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Projects from '../views/Projects.vue'
 import BTH645 from '../views/BTH645.vue'
+import Timeline from '../views/Timeline.vue'
 
 Vue.use(VueRouter)
 
@@ -25,6 +26,11 @@ const routes = [
     path: '/BTH645',
     name: 'BTH645',
     component: BTH645
+  },
+  {
+    path: '/timeline',
+    name: 'Timeline',
+    component: Timeline
   }
 ]
 

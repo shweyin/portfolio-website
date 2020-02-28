@@ -46,6 +46,7 @@ export default {
             links: [
                 {icon: 'mdi-home', text: 'Home', route: '/'},
                 {icon: 'mdi-folder', text: 'My Projects', route: '/projects'},
+                {icon: 'mdi-folder', text: 'Timeline', route: 'timeline'},
                 {icon: 'mdi-play-network', text: 'BTH645', route: '/BTH645'}
             ]
         }
