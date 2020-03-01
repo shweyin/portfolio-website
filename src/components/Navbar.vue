@@ -1,17 +1,17 @@
 <template>
     <nav>        
-        <v-toolbar flat color="indigo">
+        <v-toolbar flat color="blue-grey darken-1">
             <v-app-bar-nav-icon class="white--text" @click="drawer = true"></v-app-bar-nav-icon>
             <v-toolbar-title class="text-uppercase white--text font-weight-bold">
                 <span>Portfolio Website</span>
                 <span class="overline"> Shweyin Than</span>
             </v-toolbar-title>
             <v-spacer></v-spacer>
-            <v-btn depressed dark class="indigo" router to="/BTH645">BTH645</v-btn>
+            <v-btn depressed dark class="blue-grey darken-1" router to="/BTH645">BTH645</v-btn>
             <v-btn icon color="white" router to="/"><v-icon>mdi-home</v-icon></v-btn>
         </v-toolbar>
-        <v-navigation-drawer app temporary v-model="drawer" class="indigo darken-4">
-            <v-list class="indigo darken-2">
+        <v-navigation-drawer app temporary v-model="drawer" class="blue-grey darken-4">
+            <v-list class="blue-grey darken-3">
                 <v-list-item >
                     <v-list-item-avatar centered>
                         <v-img src="@/assets/profile.jpg"></v-img>                        
