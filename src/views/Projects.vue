@@ -1,5 +1,5 @@
 <template>
-  <div class="projects">
+  <div class="projects ma-5">
     <h1 class="grey--text">My Projects</h1>
     <v-container class="my-5">
       <v-simple-table>

@@ -10,8 +10,8 @@
                   <v-card-title ><v-avatar class="mx-1"><v-img src="@/assets/profile.jpg"></v-img></v-avatar>Welcome to my Website!</v-card-title>
                   <v-card-text>At the moment, this website is hosting my assignments from BTH645 and is my passion project. I will be building up this website to use as my portfolio.</v-card-text>
                   <v-card-actions class="justify-center">
-                    <v-btn icon><a href="https://www.linkedin.com/in/shweyin-than-656153130/"><v-icon>mdi-linkedin</v-icon></a></v-btn>
-                    <v-btn icon><a href="https://github.com/shweyin"><v-icon>mdi-git</v-icon></a></v-btn>
+                    <v-btn icon><a href="https://www.linkedin.com/in/shweyin-than-656153130/" target="_blank"><v-icon>mdi-linkedin</v-icon></a></v-btn>
+                    <v-btn icon><a href="https://github.com/shweyin" target="_blank"><v-icon>mdi-git</v-icon></a></v-btn>
                   </v-card-actions>
                 </v-card>
               </v-expand-transition>              

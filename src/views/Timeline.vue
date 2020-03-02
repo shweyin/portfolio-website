@@ -8,7 +8,7 @@
                 <template v-slot:opposite>
                     <span>{{item.date}}</span>
                 </template>
-                <v-card min-width="240" elevation="8">              
+                <v-card>              
                     <v-card-title class="blue">
                         <h2 class="white--text font-weight-light">{{ item.title }}</h2>
                     </v-card-title>
