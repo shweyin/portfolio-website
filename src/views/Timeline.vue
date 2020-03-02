@@ -1,6 +1,6 @@
 <template>
     <v-container class="my-5">
-      <v-row>
+      <v-row no-gutters>
         <v-col>
           <v-alert type="info">Welcome to my website! This website is currently a work in progress. Here is it's timeline!</v-alert>
           <v-timeline>
@@ -30,10 +30,10 @@ export default {
   data() {
     return {
       timeline: [
-        {title: 'Creation of Portfolio Website', date: '2/11/2020', content: 'The inception of this website, created to house my school assignments.'},
-        {title: 'Added Previously Completed Labs', date: '2/11/2020', content: 'I had been using a pure html/css website to host a few labs before rebasing it to use Vue. All future labs and assignments are going to be uploaded to this website.'},
-        {title: 'Completed Assignment 1', date: '2/22/2020', content: 'Completion of Assignment 1 for BTH645'},
-        {title: 'Completed Lab 5', date: '2/22/2020', content: 'Completion of Lab 5 for BTH645'},
+        {title: 'Create Portfolio Website', date: '2/11/2020', content: 'Port from old html/css website to VueJS'},
+        {title: 'Complete Assignments', date: '2/22/2020', content: 'Complete Assignment 1 and Lab5 for BTH645'},
+        {title: 'Deloy to Heroku', date: '2/24/2020', content: 'Setup automatic deployment from Github Repo to Heroku'},
+        {title: 'Update Style', date: '3/1/2020', content: 'Update Home Page, change NavBar theme'},
         // {title: '', date: '', content: ''},
       ]
     }
