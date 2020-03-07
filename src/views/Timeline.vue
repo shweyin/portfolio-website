@@ -34,6 +34,7 @@ export default {
         {title: 'Complete Assignments', date: '2/22/2020', content: 'Complete Assignment 1 and Lab5 for BTH645'},
         {title: 'Deloy to Heroku', date: '2/24/2020', content: 'Setup automatic deployment from Github Repo to Heroku'},
         {title: 'Update Style', date: '3/1/2020', content: 'Update Home Page, change NavBar theme'},
+        {title: 'Improved UI for mobile', date: '3/7/2020', content: 'Add breakpoints for background image and home page cards'},
         // {title: '', date: '', content: ''},
       ]
     }
