@@ -1,9 +1,10 @@
 <template>
-  <v-img src="@/assets/background.jpg">
+  <div class="background">
+  <!-- <v-img src="@/assets/background.jpg" class="background-image" > -->
     <v-row no-gutters>
-      <v-col cols="3">
+      <v-col cols="11" md="6" lg="3">
         <v-timeline dense>            
-          <v-hover v-slot:default="{hover}" close-delay="1000">
+          <v-hover v-slot:default="{hover}" close-delay="5000">
             <v-timeline-item fill-dot color="blue-grey" icon="mdi-account">
               <v-expand-transition>
                 <v-card v-if="hover">
@@ -17,7 +18,7 @@
               </v-expand-transition>              
             </v-timeline-item>
           </v-hover>
-          <v-hover v-slot:default="{hover}" close-delay="1000">
+          <v-hover v-slot:default="{hover}" close-delay="5000">
             <v-timeline-item fill-dot color="blue-grey" icon="mdi-card-text-outline">
               <v-expand-transition>
                 <v-card v-if="hover">
@@ -26,7 +27,7 @@
               </v-expand-transition>              
             </v-timeline-item>
           </v-hover>
-          <v-hover v-slot:default="{hover}" close-delay="1000">
+          <v-hover v-slot:default="{hover}" close-delay="5000">
             <v-timeline-item fill-dot color="blue-grey" icon="mdi-script-text-outline">
               <v-expand-transition>
                 <v-card v-if="hover">
@@ -39,8 +40,9 @@
         </v-timeline>
       </v-col>
     </v-row>
+  </div>
     
-  </v-img>  
+  <!-- </v-img>   -->
 </template>
 
 <script>
@@ -57,4 +59,10 @@ export default {
 </script>
 
 <style scoped>
+.background {
+  background-image: url("../assets/background.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
 </style>
