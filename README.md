@@ -1,4 +1,5 @@
-# portfolio-website
+# Portfolio Website
+This repo is being hosted on heroku [here](https://shweyin-portfolio.herokuapp.com/)
 
 ## Project setup
 ```
