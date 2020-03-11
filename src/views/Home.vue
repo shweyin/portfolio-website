@@ -31,7 +31,7 @@
             <v-timeline-item fill-dot color="blue-grey" icon="mdi-script-text-outline">
               <v-expand-transition>
                 <v-card v-if="hover">
-                  <v-card-text>I'm currently searching for Co-op opportunities for Summer 2020 and Winter 2020! Here's a link to my <a href="./assets/Shweyin_Than_Resume.pdf" download>resume</a>.</v-card-text>
+                  <v-card-text>I'm currently searching for Co-op opportunities for Summer 2020 and Winter 2020! Here's a link to my <a href="https://docs.google.com/document/d/1cCyRzBIn2SmYIzRKg1cvlnWPZ8LV2PJtDibnQyvRWAM/edit?usp=sharing" download>resume</a>.</v-card-text>
                   
                 </v-card>
               </v-expand-transition>              
