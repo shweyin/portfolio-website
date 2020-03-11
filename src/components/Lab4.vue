@@ -9,21 +9,21 @@
                             <v-card-title>Ukulele Solo Wav</v-card-title>
                             <v-card-text>
                                 <audio controls>
-                                <source src="@/assets/UkuleleSolo.wav" type="audio/mpeg">
+                                <source src="@/assets/bth645/UkuleleSolo.wav" type="audio/mpeg">
                                 Your browser does not support the audio element.
                                 </audio>
                             </v-card-text>
                             <v-card-title>Ukulele Solo Mp3</v-card-title>
                             <v-card-text>
                                 <audio controls>
-                                <source src="@/assets/UkuleleSolo.mp3" type="audio/mpeg">
+                                <source src="@/assets/bth645/UkuleleSolo.mp3" type="audio/mpeg">
                                 Your browser does not support the audio element.
                                 </audio>
                             </v-card-text>
                             <v-card-title>Edited Ukulele Solo</v-card-title>
                             <v-card-text>
                                 <audio controls>
-                                <source src="@/assets/EditedUkuleleSolo.wav" type="audio/mpeg">
+                                <source src="@/assets/bth645/EditedUkuleleSolo.wav" type="audio/mpeg">
                                 Your browser does not support the audio element.
                                 </audio>
                             </v-card-text>

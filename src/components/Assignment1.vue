@@ -19,7 +19,7 @@
                             we were staying in an onsen and lit some farewell fireworks. Thank you for an amazing trip, Japan. I will be back.
                         </v-card-text>
                         <audio controls>
-                            <source src="@/assets/japan_trip_audio.mp3" type="audio/mpeg">
+                            <source src="@/assets/bth645/japan_trip_audio.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
                     </v-col>

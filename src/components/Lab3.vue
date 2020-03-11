@@ -9,7 +9,7 @@
                     <v-col cols="12" sm="4">
                         <v-hover v-slot:default="{hover}">
                             <v-card>                            
-                                <v-img src="@/assets/florida2020.jpg" aspect-ratio="1">
+                                <v-img src="@/assets/bth645/florida2020.jpg" aspect-ratio="1">
                                     <v-expand-transition>
                                         <div 
                                         v-if="hover" 
@@ -24,7 +24,7 @@
                     <v-col cols="12" sm="4">
                         <v-hover v-slot:default="{hover}">
                             <v-card>                            
-                                <v-img src="@/assets/florida2020edit.jpg" aspect-ratio="1">
+                                <v-img src="@/assets/bth645/florida2020edit.jpg" aspect-ratio="1">
                                     <v-expand-transition>
                                         <div 
                                         v-if="hover" 
@@ -39,7 +39,7 @@
                     <v-col cols="12" sm="4">
                         <v-hover v-slot:default="{hover}">
                             <v-card>                            
-                                <v-img src="@/assets/keyboard.jpg" aspect-ratio="1">
+                                <v-img src="@/assets/bth645/keyboard.jpg" aspect-ratio="1">
                                     <v-expand-transition>
                                         <div 
                                         v-if="hover" 
