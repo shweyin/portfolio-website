@@ -30,7 +30,7 @@
                             <v-tab>Assignment 2</v-tab>
                             <v-tab>Assignment 3</v-tab>
                             <v-tab-item><Assignment1/></v-tab-item>
-                            <v-tab-item>ETA March 22</v-tab-item>
+                            <v-tab-item><Assignment2/></v-tab-item>
                             <v-tab-item>ETA March 30</v-tab-item>
                         </v-tabs>                        
                     </v-tab-item>
@@ -40,12 +40,13 @@
                 </v-tabs>
             </v-layout>                    
         </v-container>
-        <v-footer absolute>This page was last modified on 2/22/2020, 5:04:19 PM</v-footer>    
+        <v-footer absolute>This page was last modified on 4/05/2020, 9:44:19 PM</v-footer>    
     </div>
 </template>
 
 <script>
 import Assignment1 from '@/components/Assignment1'
+import Assignment2 from '@/components/Assignment2'
 import Lab1 from '@/components/Lab1'
 import Lab2 from '@/components/Lab2'
 import Lab3 from '@/components/Lab3'
@@ -63,6 +64,7 @@ export default {
         Lab5,
         Lab6,
         Assignment1,
+        Assignment2,
         StudentOath
     },
     data(){
