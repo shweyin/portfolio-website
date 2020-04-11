@@ -31,7 +31,7 @@
                             <v-tab>Assignment 3</v-tab>
                             <v-tab-item><Assignment1/></v-tab-item>
                             <v-tab-item><Assignment2/></v-tab-item>
-                            <v-tab-item>ETA March 30</v-tab-item>
+                            <v-tab-item><a href="https://shweyin-bth.herokuapp.com" target="_blank">Link to Assignment 3</a></v-tab-item>
                         </v-tabs>                        
                     </v-tab-item>
                     <v-tab-item>
